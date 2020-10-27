@@ -1,0 +1,68 @@
+body{
+	background: linear-gradient(135deg, #000033, #00001a);
+}
+
+h1, h2, h3, h4 {
+	color: white;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 200px;
+
+}
+
+.grid2{
+
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	top: 100px;
+	width: 300px;
+	height: 200px;
+}	
+
+.yourchoice img{
+	height: 100px;
+	width: 100px;
+	border: 10px solid yellow;
+	padding: 3px;
+	margin-left: 15px;
+	
+}
+
+.oppchoice img{
+	height: 100px;
+	width: 100px;
+	border: 10px solid red;
+	padding: 3px;
+	margin-left: 15px;
+}
+
+img{
+	height: 300px;
+	width: 300px;
+	border: 1px solid red;	
+}
+
+
+#resetbut{
+	color: red;
+	background: orange;
+	border: 1px solid red;
+	border-radius: 50%;
+	height: 50px;
+}
+
+#resetbut:hover{
+	color: darkred;
+	background: yellow;
+	border-radius: 40%;
+	border: 1px solid red;
+}
+
+#result1{
+	float: right;
+}
